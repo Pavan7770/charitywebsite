@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html>
+<head>
 <style type="text/css">
+/* 
+<img src="" alt="sorrys"> */
+
     body{
-        background-image: url("cha3.jpg");
+        background-image: url("https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg");
         background-size: cover;
         background-repeat: no-repeat;
+    }
+    .log{
+        padding-left: 68px;
     }
     
     /*set border to the form*/
     /*assign full width inputs*/
+    .user{
+        padding-left: 100px;
+        padding-right: 170px;
+        font-size: 25px;
+    }
+    .enter{
+        padding-left: 100px;
+    }
+
+    .sub{
+        margin-left: 102px;
+        padding-right: 55px;
+        padding-left: 23px;
+    }
+   
      
     input[type=text],
     input[type=password] {
@@ -19,8 +41,7 @@
         border: 10px solid #ccc;
         box-sizing: border-box;
     }
-    /*set a style for the buttons*/
-     
+
     button {
         background-color: purple;
         color: white;
@@ -30,88 +51,92 @@
         cursor: pointer;
         width: 10%;
     }
-    /* set a hover effect for the button*/
-     
+   
     button:hover {
         opacity: 0.5;
     }
-    /*set extra style for the cancel button*/
+    
      
     .cancelbtn {
         width: auto;
         padding: 10px 18px;
         background-color: purple;
     }
-    /*centre the display image inside the container*/
+   
      
     .imgcontainer {
         text-align: center;
         margin: 10px 0 10px 0;
     }
-     /*set image properties*/
      
      img.avatar {
         width: 100%;
         border-radius: 100%;
     }
-    /*set padding to the container*/
+   
      
     .container {
-        padding: 20px;
+        padding: 250px;
+        padding-right: 250px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        margin-left: 350px;
+        margin-right: 350px;
+        margin-top: 200px;
+        border: 5px solid red;
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        background-color: cyan;
+
+
     }
-    /*set the forgot password text*/
-     
+   
     span.psw {
         float: right;
-        padding-top: 10px;
+        padding-right: 555px;
+        padding-bottom: 300px;
+        font-size: 25px;
+        
     }
-    /*set styles for span and cancel button on small screens*/
-     
-    @media screen and (max-width: 100px) {
-        span.psw {
-            display: block;
-            float: none;
-        }
-        .cancelbtn {
-            width: 100%;
-        }
+    .cancelbtn{
+        margin-left: 600px;
+        margin-bottom: 200px;
     }
+  
     .login{
         text-align: center;
         font-family: sans-serif;
         font-size: xx-large;
     }
 </style>
-
+</head>
  
 <body>
- 
     
-    <!--Step 1 : Adding HTML-->
+    
+    
     <form action="/action_page.php">
         <div class="imgcontainer">
             
         </div>
-        <div class="login">
-            <label> LOGIN FORM </label>
 
-
-        </div>
- 
+      
         <div class="container">
-            <label><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
+            <h2 class="log">LOGIN FORM</h2>
+            <label class=><b class="user">Username</b></label>
+            <input  class="enter" type="text" placeholder="Enter Username" name="uname" required>
  
-            <label><b>Password</b></label>
+            <label><b class="user">Password</b></label>
             <input type="password" placeholder="Enter Password" name="psw" required>
-            <button type="submit">Login</button>
-            <input type="checkbox" checked="checked"> Remember me
+            <button class="sub" type="submit">Login</button>
+            <input  class="bo" type="checkbox" checked="checked"> Remember 
         </div>
  
-        <div class="container" style="background-color:#f1f1f1">
             <button type="button" class="cancelbtn">Cancel</button>
-            <span class="psw">Forgot <a href="#">password?</a></span>
-        </div>
+            <span class="psw">Forgot <a href="#"><b>password?</b></a></span>
+        
     </form>
 </body>
  
