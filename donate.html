@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+    <style type="text/CSS">
+        body{
+            background-image: url(https://images.unsplash.com/photo-1643321613132-040da599025b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjIwfHxjaGFyaXR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        label{
+            color: blue;
+        }
+        
+        input:hover{
+            background-color: cyan;
+        }
+        select{
+            border: 2px solid blue;
+        }
+        input{
+            border: 2px solid blue;
+        }
+        table{
+            /* background-color: gray; */
+            border: 2px solid black;
+            width: 500px;
+            height: 500px;
+            padding-left: 20px;
+            margin-left: 500px;
+            margin-top: 50px;
+        }
+      
+    </style>
+</head>
+
+<body>
+    <form action="donate.php" method="post">
+        <table>
+            
+    <tr>
+       <td><label>Name:</label></td>
+        <td><input type="text" name="name" required placeholder="Enter your Name" ></td>
+    </tr>
+    <tr>
+       <td> <label>Age:</label></td>
+        <td> <input type="number"  name="age" min="18" max="60" required>  </td>
+       </tr>
+       <tr>
+       <td> <label>Email Id:</label></td>
+        <td> <input type="email"  name="email" required placeholder="Enter Your Email"></td>
+       </tr>
+       <tr>
+       <td> <label>Mobile No:</label></td>
+       <td><input type="tel" name="mobile" required placeholder="Enter Mobile Number"></td>
+       </tr>
+       <tr>
+       <td> <label>Country:</label></td>
+       <td> <select class="country" name="country" id="country" > 
+            <option>INDIA</option>
+            <option>USA</option>
+            <option>ENGLAND</option>
+            <option>GERMANY</option>
+            <option>RUSSIA</option>
+        </select>
+    </td>
+    </tr>
+    <tr>
+        <td> <label>Enter amount:</label></td>
+        <td><input type="number"  name="amount" required placeholder="Enter Amount" min="100"></td>
+        </tr>
+    <tr>
+        <td><input type="submit" value="Make Your Donation"></td>
+    </tr>
+    </table>
+
+    </form>
+</body>
