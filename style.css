@@ -1,4 +1,18 @@
-nav.button_bar{
+<!DOCTYPE html>
+<!-- <html lang="en"> -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+
+        body{
+            background-image: url(https://thumbs.dreamstime.com/b/white-stone-words-charity-smile-face-color-glitter-boke-background-117353127.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        nav.button_bar{
     background-color: black;
     text-align: center;
     
@@ -16,11 +30,23 @@ h1{
     display: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
-
-
-
-
 }
-img{
-    background-image: -moz-radial-gradient(chairty.jpg);
-}
+
+
+    </style> 
+  </head>
+
+ <body >
+ <title>CHARITY WEBSITE</title>
+    <nav class="button_bar">
+        <a href="#HOME" class="button_bar">HOME</a>
+        <a href="#CONTACT US" class="button_bar">CONTACT US</a>
+        <a href="#DONATE" class="button_bar">DONATE</a>
+        <a href="about.html" target="_blank" class="button_bar">ABOUT</a>
+
+    </nav>
+    <h1 class="name">CHARITY WEBSITE</h1>
+    <!-- <img src="images/chairty.jpg" alt=""> -->
+    <h1 class=""></h1>
+</body>
+
