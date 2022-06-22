@@ -1,52 +1,79 @@
-<!DOCTYPE html>
-<!-- <html lang="en"> -->
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 
-        body{
-            background-image: url(https://thumbs.dreamstime.com/b/white-stone-words-charity-smile-face-color-glitter-boke-background-117353127.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
-        nav.button_bar{
-    background-color: black;
-    text-align: center;
-    
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
 }
-h1{
+
+.container{
+    width: 750px;
+    height: 500px;
+    border: 1px solid;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content:space-around;
+}
+
+.container h1{
     text-align: center;
 }
-.button_bar a{
+
+.first-row{
+     display: flex;
+}
+
+.owner{
+    width: 100%;
+    margin-right: 40px;
+}
+
+.input-field{
+    border: 1px solid #999;
+}
+
+.input-field input{
+    width: 100%;
+    border:none;
+    outline: none;
+    padding: 10px;
+}
+
+.selection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selection select{
+    padding: 10px 20px;
+}
+
+a{
+    background-color: blueviolet;
     color: white;
-    font-size: 23px; 
-    padding: 60px; 
-    text-decoration: NONE; 
-    display: inline;
     text-align: center;
-    display: 100%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    transition: 0.5s;
 }
 
+a:hover{
+    background-color: dodgerblue;
+}
 
-    </style> 
-  </head>
-
- <body >
- <title>CHARITY WEBSITE</title>
-    <nav class="button_bar">
-        <a href="#HOME" class="button_bar">HOME</a>
-        <a href="#CONTACT US" class="button_bar">CONTACT US</a>
-        <a href="#DONATE" class="button_bar">DONATE</a>
-        <a href="about.html" target="_blank" class="button_bar">ABOUT</a>
-
-    </nav>
-    <h1 class="name">CHARITY WEBSITE</h1>
-    <!-- <img src="images/chairty.jpg" alt=""> -->
-    <h1 class=""></h1>
-</body>
-
+.cards img{
+    width: 100px;
+}
