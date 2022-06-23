@@ -1,52 +1,85 @@
 <!DOCTYPE html>
-<!-- <html lang="en"> -->
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <style>
 
-        body{
-            background-image: url(https://thumbs.dreamstime.com/b/white-stone-words-charity-smile-face-color-glitter-boke-background-117353127.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
-        nav.button_bar{
-    background-color: black;
-    text-align: center;
+   
+    <link rel="stylesheet" href="style.css">
     
-}
-h1{
-    text-align: center;
-}
-.button_bar a{
-    color: white;
-    font-size: 23px; 
-    padding: 60px; 
-    text-decoration: NONE; 
-    display: inline;
-    text-align: center;
-    display: 100%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
-}
-
-
-    </style> 
-  </head>
-
- <body >
  <title>CHARITY WEBSITE</title>
-    <nav class="button_bar">
-        <a href="#HOME" class="button_bar">HOME</a>
-        <a href="#CONTACT US" class="button_bar">CONTACT US</a>
-        <a href="#DONATE" class="button_bar">DONATE</a>
-        <a href="about.html" target="_blank" class="button_bar">ABOUT</a>
+    
+   
+</head>
 
-    </nav>
-    <h1 class="name">CHARITY WEBSITE</h1>
-    <!-- <img src="images/chairty.jpg" alt=""> -->
-    <h1 class=""></h1>
+<body>
+   <header>
+    <div class="container">
+        <div id="branding">
+            <h1>
+                <span class="highlight">CHARITY</span>
+                WEBSITE
+            </h1>
+        </div>
+        <nav>
+            <ul>
+                <li class="current">
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="contact.html"> CONTACT US</a>
+                </li>
+                <li>
+                    <a href="about.html">ABOUT US</a>
+                </li>
+                <li>
+                    <a href="donate.html">DONATE</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+   </header>
+   <section id="showcase">
+    <div class="container">
+
+        <h1>
+            Charity begins at home, but should not end there
+        </h1>
+        <p>Charity, a noble quality in man, brings welfare in the society. It enlarges human hearts and spreads the message of brotherhood and innocent love among the people. The practice of charity was adored in ancient days. The saints and the sages lived on alms offered by the affluent people.</p>
+
+    </div>
+   </section>
+   <section id="newsletter">
+    <div class="container">
+      <h1>JOIN US TO KNOW  MORE</h1>
+      <form>
+        <input type="email" placeholder="Enter Email...">
+        <button type="submit" class="button_1">JOIN</button>
+      </form>
+    </div>
+  </section>
+   <section id="boxes">
+    <div class="container">
+      <div class="box">
+        <img src="images/chairty.jpg">
+        <h3>WHAT DO WE DO</h3>
+        <p>envisions shaping up of a healthy, happy and progressive society</p>
+      </div>
+      <div class="box">
+        <img src="images/smile.jpg">
+        <h3>MANY SMILES AND COUNTING</h3>
+        <p>committed to empower the underprivileged section of our society by creating an enabling environment through Encouragement, Education and Employment</p>
+      </div>
+      <div class="box">
+        <img src="images/donate.png">
+        <h3>DONATE FOR GOOD CAUSE       </h3>
+        <p>Bringing Smiles is a community driven charity that is dedicated in its mission to educate and enlightened children on the benefits of education and healthy lifestyles</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>charity webpage, Copyright &copy; 2022</p>
+  </footer>  
 </body>
 
+
+</html>
